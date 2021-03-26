@@ -1,15 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { 
-  StyleSheet, 
-  Text, 
-  View,
-  Dimensions
-} from 'react-native';
-import { 
-  useDimensions,
-  useDeviceOrientation 
-} from '@react-native-community/hooks'
+import { StyleSheet, } from 'react-native';
 import Dashboard from './app/screens/Dashboard';
 
 export default function App() {
